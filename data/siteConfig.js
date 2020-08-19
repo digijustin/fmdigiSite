@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'FM Digi',
   siteDescription: 'Welcome to FM Digi',
-  authorName: 'Justin AKA FM Digi',
+  authorName: 'FM Digi',
   twitterUsername: 'fm_digi',
   authorAvatar: 'fmdigi.png', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
