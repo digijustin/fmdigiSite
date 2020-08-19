@@ -99,7 +99,7 @@ const Footer = () => {
     }
     return (
       <span className="footer-item">
-        <a className="footer-link" href={item.url}>
+        <a className="footer-link" href={item.url} target="_blank">
           {item.label}
         </a>
       </span>
@@ -142,17 +142,6 @@ const Footer = () => {
               href="https://github.com/maxpou/gatsby-starter-morning-dew"
             >
               gatsby-starter-morning-dew
-            </a>
-            .
-          </p>
-          <p className="footer-item-text">
-            Hosted with{' '}
-            <span className="footer-heart" role="img" aria-label="Love">
-              ❤
-            </span>{' '}
-            by{' '}
-            <a className="footer-link" href={websiteHost.url}>
-              {websiteHost.name}
             </a>
             .
           </p>

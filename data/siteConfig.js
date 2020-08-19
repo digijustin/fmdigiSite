@@ -1,43 +1,38 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-morning-dew',
-  siteDescription: 'A Gatsby theme/starter to build lightning-fast websites',
-  authorName: 'Maxence Poutord',
-  twitterUsername: '_maxpou',
-  authorAvatar: 'avatar.jpeg', // file in content/images
+  siteTitle: 'FM Digi',
+  siteDescription: 'Welcome to FM Digi',
+  authorName: 'Justin AKA FM Digi',
+  twitterUsername: 'fm_digi',
+  authorAvatar: 'fmdigi.png', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  For the last decade, Maxence Poutord has worked with a variety of web technologies. He is currently focused on front-end development.
-  On his day to day job, he is working as a senior front-end engineer at VSware. He is also an occasional tech speaker and a mentor.
-  As a digital nomad, he is living where the WiFi and sun are 😎 <br>
-  Do you want to know more? <a href="https://www.maxpou.fr/about" rel="noopener" target="_blank">Visit my website!</a>
+  FM Digi is new to the Football Manager scene. Has always loved sport simulation games, he fell in 
+  love with Football Manager in 2018. Creating content on Twitch and YouTube since 2019 and developed
+  his own USA pro/rel database for the launch of FM20.
   `,
-  siteUrl: 'https://maxpou.github.io/',
-  disqusSiteUrl: 'https://www.maxpou.fr/',
+  siteUrl: 'https://fmdigi.cc/',
+  disqusSiteUrl: 'https://fmdigi.cc/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover-baymax.jpeg', // file in content/images
-  googleAnalyticsId: 'UA-67868977-2',
+  pathPrefix: '', //'/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
+  siteCover: 'blogHeader.png', // file in content/images
+  googleAnalyticsId: 'UA-171527051-1',
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
   icon: 'content/images/baymax.png',
   postsPerPage: 6,
-  disqusShortname: 'maxpou',
-  headerTitle: 'gatsby-starter-morning-dew',
+  disqusShortname: 'FMDigi',
+  headerTitle: 'FM Digi',
   headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
   headerLinks: [
     {
       label: 'Blog',
       url: '/',
     },
-    {
-      label: 'About',
-      url: '/about-gatsby-starter-morning-dew',
-    },
-    {
-      label: 'Installation',
-      url: '/how-to-install',
-    },
+    // {
+    //   label: 'About',
+    //   url: '/about-gatsby-starter-morning-dew',
+    // },
   ],
   // Footer information (ex: Github, Netlify...)
   websiteHost: {
@@ -45,37 +40,49 @@ module.exports = {
     url: 'https://github.com',
   },
   footerLinks: [
-    {
-      sectionName: 'Explore',
-      links: [
-        {
-          label: 'Blog',
-          url: '/',
-        },
-        {
-          label: 'About',
-          url: '/about-gatsby-starter-morning-dew',
-        },
-        {
-          label: 'Installation',
-          url: '/how-to-install',
-        },
-      ],
-    },
+    // {
+    //   sectionName: 'Explore',
+    //   links: [
+    //     {
+    //       label: 'Blog',
+    //       url: '/',
+    //     },
+    //     {
+    //       label: 'About',
+    //       url: '/about-gatsby-starter-morning-dew',
+    //     },
+    //     {
+    //       label: 'Installation',
+    //       url: '/how-to-install',
+    //     },
+    //   ],
+    // },
     {
       sectionName: 'Follow the author',
       links: [
+        // {
+        //   label: 'GitHub',
+        //   url: 'https://github.com/maxpou/gatsby-starter-morning-dew',
+        // },
+        // {
+        //   label: 'Website',
+        //   url: 'https://fmdigi.cc',
+        // },
         {
-          label: 'GitHub',
-          url: 'https://github.com/maxpou/gatsby-starter-morning-dew',
-        },
-        {
-          label: 'Website',
-          url: 'https://www.maxpou.fr',
+          label: 'YouTube',
+          url: 'https://youtube.com/c/fmdigi',
         },
         {
           label: 'Twitter',
-          url: 'https://twitter.com/_maxpou',
+          url: 'https://twitter.com/fm_digi',
+        },
+        {
+          label: 'Facebook',
+          url: 'https://facebook.com/fmdigi',
+        },
+        {
+          label: 'Twitch',
+          url: 'https://twitch.com/fmdigi',
         },
       ],
     },
