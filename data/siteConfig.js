@@ -21,7 +21,7 @@ module.exports = {
   display: 'standalone',
   icon: 'content/images/baymax.png',
   postsPerPage: 6,
-  disqusShortname: 'FMDigi',
+  disqusShortname: 'fm-digi',
   headerTitle: 'FM Digi',
   headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
   headerLinks: [
