@@ -5,7 +5,7 @@ date: 2020-07-12
 language: en
 generate-card: false
 tags:
-  - wakefield
+  - Wakefield
 ---
 
 Welcome to Wakefield City. We have finished the pre-season and the results were mixed.

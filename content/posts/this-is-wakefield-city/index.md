@@ -5,7 +5,7 @@ date: 2020-07-03
 language: en
 generate-card: false
 tags:
-  - wakefield
+  - Wakefield
 ---
 
 A few months ago I was on Twitter catching up with all the Football Manager comings and goings when I saw a tweet that mentioned a new database up on FM Scout. As a database editor, I’m always interested in seeing what others do but this one caught my eye in terms of a fun save too.

@@ -11,23 +11,38 @@ import Hero from '../components/Hero'
 const PageTitle = styled.h1`
   padding-bottom: 10px;
 `
+const tagArray = ['Wakefield','FMDigi']
 
 class Tags extends React.Component {
   render() {
     const pageTitle = `#${this.props.pageContext.tag}`
     const posts = this.props.data.posts.edges
 
-    return (
-      <Layout location={this.props.location}>
-        <SEO title={`Top blog posts on ${this.props.pageContext.tag}`} />
-        <Hero title={pageTitle} />
-
-        <Wrapper>
-          <PageTitle>Posts tagged as {this.props.pageContext.tag}</PageTitle>
-          <PostsList posts={posts} />
-        </Wrapper>
-      </Layout>
-    )
+    if (tagArray.includes(this.props.pageContext.tag)) {
+      return (
+        <Layout location={this.props.location}>
+          <SEO title={`Top blog posts on ${this.props.pageContext.tag}`} />
+          <Hero title={pageTitle} />
+  
+          <Wrapper>
+            <PageTitle>{this.props.pageContext.tag} Posts</PageTitle>
+            <PostsList posts={posts} />
+          </Wrapper>
+        </Layout>
+      )
+    } else {
+      return (
+        <Layout location={this.props.location}>
+          <SEO title={`Top blog posts on ${this.props.pageContext.tag}`} />
+          <Hero title={pageTitle} />
+  
+          <Wrapper>
+            <PageTitle>Posts tagged as {this.props.pageContext.tag}</PageTitle>
+            <PostsList posts={posts} />
+          </Wrapper>
+        </Layout>
+      )
+    }
   }
 }
 

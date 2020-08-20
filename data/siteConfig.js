@@ -19,20 +19,20 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
-  icon: 'content/images/baymax.png',
+  icon: 'content/images/fmdigi.png',
   postsPerPage: 6,
   disqusShortname: 'fm-digi',
   headerTitle: 'FM Digi',
-  headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
+  headerLinksIcon: 'fmdigi.png', //  (leave empty to disable: '')
   headerLinks: [
-    {
-      label: 'Blog',
-      url: '/',
-    },
     // {
-    //   label: 'About',
-    //   url: '/about-gatsby-starter-morning-dew',
+    //   label: 'Blog',
+    //   url: '/',
     // },
+    {
+      label: 'Wakefield Series',
+      url: '/tags/Wakefield',
+    },
   ],
   // Footer information (ex: Github, Netlify...)
   websiteHost: {
