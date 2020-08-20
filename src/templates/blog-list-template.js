@@ -60,6 +60,7 @@ export const pageQuery = graphql`
             tags
             language
             slug
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

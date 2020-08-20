@@ -7,6 +7,8 @@ import useSiteImages from '../hooks/use-site-images'
 import TagList from './TagList'
 import Flag from './Flag/Flag'
 import { ReadingTime, Bull } from './Commons'
+import Time from './Time'
+
 
 const PreviewContainer = styled.aside`
   display: flex;
@@ -86,6 +88,7 @@ const PrevNextPost = props => {
             title,
             slug,
             language,
+            date,
           } = article.node.frontmatter
           const heroImg = (cover && cover.publicURL) || fluid.src
 
@@ -103,6 +106,7 @@ const PrevNextPost = props => {
                     </h2>
                   </header>
                   <section>
+                    <Time date={date} />
                     <p>{excerpt}</p>
                   </section>
                   <footer>

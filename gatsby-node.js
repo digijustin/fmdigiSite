@@ -32,6 +32,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                 publicURL
               }
               unlisted
+              date(formatString: "MMMM DD, YYYY")
             }
             timeToRead
             excerpt

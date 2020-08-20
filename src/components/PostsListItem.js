@@ -6,6 +6,7 @@ import useSiteMetadata from '../hooks/use-site-config'
 import styled from 'styled-components'
 import { colors } from '../tokens'
 import { Bull, ReadingTime } from './Commons'
+import Time from './Time'
 
 const Post = styled.article`
   border-bottom: 1px solid rgba(214, 209, 230, 0.5);
@@ -52,7 +53,7 @@ const FooterLine = styled.div`
 `
 
 const PostsListItem = props => {
-  const { title, excerpt, slug, language, tags, timeToRead } = props
+  const { title, excerpt, slug, language, tags, timeToRead, date } = props
   const { defaultLang } = useSiteMetadata()
 
   return (
@@ -67,6 +68,7 @@ const PostsListItem = props => {
       </PostHeader>
 
       <section>
+        <Time date={date} />
         <Excerpt dangerouslySetInnerHTML={{ __html: excerpt }} />
       </section>
 

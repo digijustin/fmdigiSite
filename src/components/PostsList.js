@@ -14,6 +14,7 @@ const PostsList = ({ posts }) => {
           excerpt: post.node.excerpt,
           slug: post.node.frontmatter.slug,
           timeToRead: post.node.timeToRead,
+          date: post.node.frontmatter.date,
           language: post.node.frontmatter.language || defaultLang,
           tags: post.node.frontmatter.tags || [],
         }
