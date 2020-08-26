@@ -4,6 +4,7 @@ slug: welcome-to-fm-digi
 date: 2020-07-02
 language: en
 generate-card: false
+published: true
 tags:
   - FMDigi
 ---

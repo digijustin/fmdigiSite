@@ -65,7 +65,15 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-images`],
+        plugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener",
+            },
+          },
+        ],
       },
     },
     `gatsby-transformer-sharp`,

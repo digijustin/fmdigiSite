@@ -25,14 +25,18 @@ module.exports = {
   headerTitle: 'FM Digi',
   headerLinksIcon: 'fmdigi.png', //  (leave empty to disable: '')
   headerLinks: [
-    // {
-    //   label: 'Blog',
-    //   url: '/',
-    // },
     {
-      label: 'Wakefield Series',
-      url: '/tags/Wakefield',
+      label: 'FM Databases',
+      url: '/databases',
     },
+    {
+      label: 'About Me',
+      url: '/about',
+    },
+    // {
+    //   label: 'Wakefield Series',
+    //   url: '/tags/Wakefield',
+    // },
   ],
   // Footer information (ex: Github, Netlify...)
   websiteHost: {
