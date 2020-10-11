@@ -81,12 +81,16 @@ module.exports = {
           url: 'https://twitter.com/fm_digi',
         },
         {
-          label: 'Facebook',
-          url: 'https://facebook.com/fmdigi',
+          label: 'Instagram',
+          url: 'https://instagram.com/fm_digi',
         },
         {
           label: 'Twitch',
           url: 'https://twitch.com/fmdigi',
+        },
+        {
+          label: 'Facebook',
+          url: 'https://facebook.com/fmdigi',
         },
       ],
     },
