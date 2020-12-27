@@ -8,12 +8,12 @@ module.exports = {
   authorDescription: `
   FM Digi is new to the Football Manager scene. Has always loved sport simulation games, he fell in 
   love with Football Manager in 2018. Creating content on Twitch and YouTube since 2019 and developed
-  his own USA pro/rel database for the launch of FM20.
+  his own USA pro/rel database for FM20 and now FM21.
   `,
   siteUrl: 'https://fmdigi.cc/',
   disqusSiteUrl: 'https://fmdigi.cc/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '', //'/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/gatsby-starter-morning-dew', //'/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
   siteCover: 'blogHeader.png', // file in content/images
   googleAnalyticsId: 'UA-171527051-1',
   background_color: '#ffffff',
