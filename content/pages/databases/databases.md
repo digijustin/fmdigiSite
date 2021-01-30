@@ -11,9 +11,13 @@ Databases
 Here's a list of my databases and where to find them.
 
 ## 2021
-[United States Pro/Rel Database](https://www.mediafire.com/file/b9nyrunh37htdps/FMDigi-USA-ProRel-9TiersV1_0.fmf/file)
+[United States Pro/Rel Database - 10 Tier](https://www.mediafire.com/file/6hff5grwg2o6rwu/FMDigi-USA-ProRel-10TiersV2_0.fmf/file)
 
-[League Logo Pack](https://www.mediafire.com/file/p2wnuu0wr6fzv8s/USFLLogos.zip/file)
+[League Logo Pack - 10 Tier](https://www.mediafire.com/file/dgn5jzt114ecch7/USFLLogos_Tier10.zip/file)
+
+[United States Pro/Rel Database - 9 Tier](https://www.mediafire.com/file/b9nyrunh37htdps/FMDigi-USA-ProRel-9TiersV1_0.fmf/file)
+
+[League Logo Pack - 9 Tier](https://www.mediafire.com/file/p2wnuu0wr6fzv8s/USFLLogos.zip/file)
 
 [Expanded 96 Team/43 Country North American CONFACAF Champions League Database](https://www.mediafire.com/file/6cd9ff8ockjup30/FMDigi-ConcacafCL.fmf/file)
 
