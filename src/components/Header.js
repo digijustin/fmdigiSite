@@ -215,6 +215,7 @@ const Header = () => {
 
   return (
     <HeaderWrapper>
+      <script data-ad-client="ca-pub-2418265606910603" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <HeaderNav>
         <HeaderLinkTitle to={`/`} aria-label={`View home page`}>
           {iconSrc && <HeaderImage src={iconSrc} alt={siteTitle} />}
